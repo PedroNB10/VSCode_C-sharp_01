@@ -1,0 +1,15 @@
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\bin\Debug\net6.0\Primeiro_Projeto.exe
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\bin\Debug\net6.0\Primeiro_Projeto.deps.json
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\bin\Debug\net6.0\Primeiro_Projeto.runtimeconfig.json
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\bin\Debug\net6.0\Primeiro_Projeto.dll
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\bin\Debug\net6.0\Primeiro_Projeto.pdb
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.csproj.AssemblyReference.cache
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.AssemblyInfoInputs.cache
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.AssemblyInfo.cs
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.dll
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\refint\Primeiro_Projeto.dll
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.pdb
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\Primeiro_Projeto.genruntimeconfig.cache
+C:\Users\Alunos\Desktop\VSCode_C-sharp_01\Primeiro_Projeto\obj\Debug\net6.0\ref\Primeiro_Projeto.dll
