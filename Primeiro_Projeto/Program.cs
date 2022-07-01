@@ -29,12 +29,11 @@ namespace PRIMEIRO_PROJETO
             // conta_da_Cecilia.Agencia = 111;
             // conta_da_Cecilia.numero_conta = 233;
             // conta_da_Cecilia.Saldo = 200;
-         
-
              //A conta é do(a) Pedro Nogueira. A agência é 111. O número da conta é 223. O saldo é de: 1000 reais.
-            // Console.WriteLine("A conta é do(a) "+ conta_do_pedro.Titular + ". A agência é "+ conta_do_pedro.Agencia + ". O número da conta é "+conta_do_pedro.numero_conta + ". O saldo é de: "+conta_do_pedro.Saldo+" reais.");
-            // Console.WriteLine("A conta é do(a) "+ conta_do_Ednaldo.Titular + ". A agência é "+ conta_do_Ednaldo.Agencia + ". O número da conta é "+conta_do_Ednaldo.numero_conta + ". O saldo é de: "+conta_do_Ednaldo.Saldo+" reais.");
-            // Console.WriteLine("A conta é do(a) "+ conta_da_Cecilia.Titular + ". A agência é "+ conta_da_Cecilia.Agencia + ". O número da conta é "+conta_da_Cecilia.numero_conta + ". O saldo é de: "+conta_da_Cecilia.Saldo+" reais.");
+             
+             Console.WriteLine("A conta é do(a) "+ conta_do_pedro.Titular + ". A agência é "+ conta_do_pedro.Agencia + ". O número da conta é "+conta_do_pedro.numero_conta + ". O saldo é de: "+conta_do_pedro.Saldo+" reais.");
+             Console.WriteLine("A conta é do(a) "+ conta_do_Ednaldo.Titular + ". A agência é "+ conta_do_Ednaldo.Agencia + ". O número da conta é "+conta_do_Ednaldo.numero_conta + ". O saldo é de: "+conta_do_Ednaldo.Saldo+" reais.");
+             Console.WriteLine("A conta é do(a) "+ conta_da_Cecilia.Titular + ". A agência é "+ conta_da_Cecilia.Agencia + ". O número da conta é "+conta_da_Cecilia.numero_conta + ". O saldo é de: "+conta_da_Cecilia.Saldo+" reais.");
             
     
             
