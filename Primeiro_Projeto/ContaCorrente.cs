@@ -1,3 +1,6 @@
+//Estrutura: Classe, Construtor e Método;
+
+
 public class ContaCorrente 
 {
 
@@ -19,5 +22,19 @@ public class ContaCorrente
  //Console.WriteLine("A conta é do(a) "+ this.Titular + ". A agência é "+ this.Agencia + ". O número da conta é "+this.numero_conta + ". O saldo é de: "+this.Saldo+" reais.");
       
    }
+
+//void é um retorno vazio
+// tipo bool é o retorno do méthodo SacarDinheiro
+
+      public bool SacarDinheiro(double ValorSaque){
+          
+          if(this.Saldo >= ValorSaque){
+            this.Saldo = this.Saldo - ValorSaque;
+            return true;
+          }
+
+          return false;
+
+        }
 
 }
