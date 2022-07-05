@@ -11,7 +11,7 @@ namespace PRIMEIRO_PROJETO
             //tipo de variavel "ContaCorrente", "conta" é a variavel
              ContaCorrente conta_do_pedro = new ContaCorrente("Pedro Nogueira",111,223,1000); // conta_do_pedro é uma variável que tem um objeto
              ContaCorrente conta_do_Ednaldo = new ContaCorrente("Ednaldo",222,233,3000);
-             ContaCorrente conta_da_Cecilia = new ContaCorrente("Cecilia",333,226,-1000);
+             ContaCorrente conta_da_Cecilia = new ContaCorrente("Cecilia",333,226,-1000); //new ==> new object
 
             // conta_do_pedro.Titular = "Pedro Nogueira";
             // conta_do_pedro.Agencia = 111;
@@ -35,8 +35,9 @@ namespace PRIMEIRO_PROJETO
              Console.WriteLine("A conta é do(a) "+ conta_do_Ednaldo.Titular + ". A agência é "+ conta_do_Ednaldo.Agencia + ". O número da conta é "+conta_do_Ednaldo.numero_conta + ". O saldo é de: "+conta_do_Ednaldo.Saldo+" reais.");
              Console.WriteLine("A conta é do(a) "+ conta_da_Cecilia.Titular + ". A agência é "+ conta_da_Cecilia.Agencia + ". O número da conta é "+conta_da_Cecilia.numero_conta + ". O saldo é de: "+conta_da_Cecilia.Saldo+" reais.");
             
-          int  sacar_conta_pedro =  conta_do_pedro.SacarDinheiro(100);
-            
+            bool sacar_conta_pedro =  conta_do_pedro.SacarDinheiro(100); // a variavel tem que ter o mesmo tipo do retorno do método
+             Console.WriteLine(sacar_conta_pedro);
+                Console.WriteLine("A conta é do(a) "+ conta_do_pedro.Titular + ". A agência é "+ conta_do_pedro.Agencia + ". O número da conta é "+conta_do_pedro.numero_conta + ". O saldo é de: "+conta_do_pedro.Saldo+" reais.");
         }
 
     }

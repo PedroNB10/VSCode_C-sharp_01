@@ -6,12 +6,14 @@ public class ContaCorrente
 
 
 //Títular, numero_conta, Agencia e Saldo são ATRIBUTOS DE CLASSE
+
+// tipo de acesso, tipo de variavel nome da variavel
    public string Titular; //Quando cria uma conta é como estanciar um objeto
    public int numero_conta;
    public int Agencia;
    public double Saldo;
 
-   public ContaCorrente (string Titular,  int Agencia, int numero_conta, double Saldo)// é um construtor
+   public ContaCorrente (string Titular,  int Agencia, int numero_conta, double Saldo)// é um construtor, cria o objeto
     {
       //this é o objeto sendo usado no momento
       this.Titular = Titular;
@@ -24,16 +26,19 @@ public class ContaCorrente
    }
 
 //void é um retorno vazio
+
+// para criar umma funlçao sem retorno usa o void antes do nome da função
+
 // tipo bool é o retorno do méthodo SacarDinheiro
 
       public bool SacarDinheiro(double ValorSaque){
           
           if(this.Saldo >= ValorSaque){
             this.Saldo = this.Saldo - ValorSaque;
-            return true;
+           return true;
           }
-
-          return false;
+ return false;
+        
 
         }
 
