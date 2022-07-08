@@ -42,4 +42,12 @@ public class ContaCorrente
 
         }
 
+        public bool DepositarDinheiro(double ValorSaque){
+          
+        this.Saldo = this.Saldo + ValorSaque;
+ return false;
+        
+
+        }
+
 }

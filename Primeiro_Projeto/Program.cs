@@ -32,12 +32,16 @@ namespace PRIMEIRO_PROJETO
              //A conta é do(a) Pedro Nogueira. A agência é 111. O número da conta é 223. O saldo é de: 1000 reais.
 
              Console.WriteLine("A conta é do(a) "+ conta_do_pedro.Titular + ". A agência é "+ conta_do_pedro.Agencia + ". O número da conta é "+conta_do_pedro.numero_conta + ". O saldo é de: "+conta_do_pedro.Saldo+" reais.");
-             Console.WriteLine("A conta é do(a) "+ conta_do_Ednaldo.Titular + ". A agência é "+ conta_do_Ednaldo.Agencia + ". O número da conta é "+conta_do_Ednaldo.numero_conta + ". O saldo é de: "+conta_do_Ednaldo.Saldo+" reais.");
-             Console.WriteLine("A conta é do(a) "+ conta_da_Cecilia.Titular + ". A agência é "+ conta_da_Cecilia.Agencia + ". O número da conta é "+conta_da_Cecilia.numero_conta + ". O saldo é de: "+conta_da_Cecilia.Saldo+" reais.");
+            //  Console.WriteLine("A conta é do(a) "+ conta_do_Ednaldo.Titular + ". A agência é "+ conta_do_Ednaldo.Agencia + ". O número da conta é "+conta_do_Ednaldo.numero_conta + ". O saldo é de: "+conta_do_Ednaldo.Saldo+" reais.");
+            //  Console.WriteLine("A conta é do(a) "+ conta_da_Cecilia.Titular + ". A agência é "+ conta_da_Cecilia.Agencia + ". O número da conta é "+conta_da_Cecilia.numero_conta + ". O saldo é de: "+conta_da_Cecilia.Saldo+" reais.");
             
             bool sacar_conta_pedro =  conta_do_pedro.SacarDinheiro(100); // a variavel tem que ter o mesmo tipo do retorno do método
              Console.WriteLine(sacar_conta_pedro);
                 Console.WriteLine("A conta é do(a) "+ conta_do_pedro.Titular + ". A agência é "+ conta_do_pedro.Agencia + ". O número da conta é "+conta_do_pedro.numero_conta + ". O saldo é de: "+conta_do_pedro.Saldo+" reais.");
+     
+           bool depositar_conta_pedro =  conta_do_pedro.DepositarDinheiro(200);
+
+             Console.WriteLine("A conta é do(a) "+ conta_do_pedro.Titular + ". A agência é "+ conta_do_pedro.Agencia + ". O número da conta é "+conta_do_pedro.numero_conta + ". O saldo é de: "+conta_do_pedro.Saldo+" reais.");
         }
 
     }
